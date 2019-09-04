@@ -1,0 +1,23 @@
+{
+  "name": "morse-decoder",
+  "version": "1.0.0",
+  "description": "Morse code decoder",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romacher/morse-decoder.git"
+  },
+  "author": "Roman Chernyavski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romacher/morse-decoder/issues"
+  },
+  "homepage": "https://github.com/romacher/morse-decoder#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
