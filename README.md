@@ -24,3 +24,9 @@ Write your solution in `src/index.js`
 - Run `npm install` in command line
 - Run `npm test` in command line
 - You will see the number of passing and failing tests
+
+## Submit to [rs app](https://app.rs.school)
+1. Open [rs app](https://app.rs.school) and login
+2. Go to [submit task page](https://app.rs.school/course/submit-task?course=rs-2019-q3)
+3. Select your task (morse-decoder)
+4. Press the submit button and enjoy 
