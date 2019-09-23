@@ -7,7 +7,7 @@ Write your solution in `src/index.js`
 
 ---
 
-**Input:** String. It length is multiple of 8.   
+**Input:** String. It length is multiple of 10.   
 - Eache letter from alphabet encoded with `10` for `.` and `11` for `-`.   
 - Each encoded **letter's length is 10**.   
 - If length of encoded letter is **less then 10**, it `lefft padded` with `0`.   
