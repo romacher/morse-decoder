@@ -4,7 +4,11 @@
   "description": "Morse code decoder",
   "main": "test.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha test.js",
+    "postinstall": "node postinstall.js"
+  },
+  "engines": {
+    "node": "<=10"
   },
   "repository": {
     "type": "git",
@@ -19,5 +23,9 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "semver": "^6.3.0"
   }
 }
