@@ -7,13 +7,13 @@ Write your solution in `src/index.js`
 
 ---
 
-**Input:** String of `0` and `1`. Its length is multiple of 10.
-- Each letter from alphabet encoded with dots(`.`) and dashes(`-`). `10` stands for dot(`.`), `11` stands for dash(`-`).
+**Input:** String. Its length is multiple of 10.   
+- Each letter from alphabet encoded with dots(`.`) and dashes(`-`). `10` stands for dot(`.`), `11` stands for dash(`-`). 
 - Each encoded **letter's length is 10**.   
-- If length of encoded letter is **less than 10**, it must be `left padded` with `0`.   
-- `Space` in a input string is encoded with ten asterisks ->`**********`.
-- **Example:** `me` -> `--` `.` -> `0000001111 0000000010`. Spaces in final result were added for the sake of concept better understanding. Input string does **NOT** include spaces.  
-**Output:** String (decoded). Simply put, `00000011110000000010` should be decoded by your application as `me`.
+- If the length of the encoded letter is **less then 10**, it `left padded` with `0`.   
+- `Space` in string is `**********`.   
+**Output:** String (decoded)
+**Example:** `me` -> `m === -- === 0000001111`, `e === . === 0000000010` -> `00000011110000000010`
 
 ---
 
@@ -30,4 +30,8 @@ Write your solution in `src/index.js`
 1. Open [rs app](https://app.rs.school) and login
 2. Go to [submit task page](https://app.rs.school/course/submit-task?course=rs-2019-q3)
 3. Select your task (morse-decoder)
-4. Press the submit button and enjoy 
+4. Press the submit button and enjoy
+
+### Notes
+1. We recommend you to use nodejs of version 10 or lower. If you using any of features that does not supported by node v10, score won't be submitted.
+2. Please be sure that each of your test in limit of 30sec.
