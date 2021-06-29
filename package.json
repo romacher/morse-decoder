@@ -8,7 +8,7 @@
     "postinstall": "node postinstall.js"
   },
   "engines": {
-    "node": "<=10"
+    "node": "<=14"
   },
   "repository": {
     "type": "git",
