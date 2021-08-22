@@ -20,7 +20,7 @@ Write your solution in `src/index.js`
 ## Prepare and test
 
 - Install [Node.js](https://nodejs.org/en/)
-- Clone this repository: `https://github.com/romacher/morse-decoder.git`
+- Fork this repository: `https://github.com/romacher/morse-decoder.git`
 - Go to the folder `morse-decoder`
 - Run `npm install` in command line
 - Run `npm test` in command line
