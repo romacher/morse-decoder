@@ -35,6 +35,7 @@ const MORSE_TABLE = {
     '---..':  '8',
     '----.':  '9',
     '-----':  '0',
+    '*****':  ' ',
 };
 
 function decode(expr) {
@@ -49,7 +50,7 @@ function decode(expr) {
 
         if(word2 == "10"){ result1 += '.'
         }else if(word2 == "11"){ result1 += '-'
-        }else if(word2 == '**') {result1 += ' '}
+        }else if(word2 == '**') {result1 += '*'}
 
         }
 
