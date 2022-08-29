@@ -3,8 +3,8 @@ const { decode } = require('./src/index.js');
 
 describe("Easy", function() {
     it("Sentence test 1", function() {
-        const expr = "00101010100000000010001011101000101110100000111111**********00001011110000111111000010111000101110100000111010";
-        const result = "hello world";
+        const expr = "0010101010**********0000000010001011101000101110100000111111**********00001011110000111111000010111000101110100000111010";
+        const result = "h ello world";
         expect(decode(expr)).to.equal(result);
     });
     
