@@ -55,6 +55,7 @@ function decode(expr) {
       result += MORSE_TABLE[letterDecoding];
     }
   }
+  
   return result;
 }
 
